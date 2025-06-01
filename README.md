@@ -31,11 +31,16 @@ Herramienta de línea de comandos para desplegar un servidor HAPI FHIR, cargar l
 
 ```bash
 # Linux
-./deploy-hapi /ruta/a/mi/config.yaml 8080 /var/run/docker.sock
+./deploy-hapi /ruta/a/mi/application.yaml 8080 /var/run/docker.sock
 
 # Windows
-.\deploy-hapi.exe C:\ruta\a\mi\config.yaml 8080 //./pipe/docker_engine
+.\deploy-hapi.exe C:\ruta\a\mi\application.yaml 8080 //./pipe/docker_engine
 ```
+Para conocer en en que socket corre docker, puede ejecitar el siguiente comando:
+```bash
+docker context ls
+```
+
 
 ## Binarios incluidos
 
