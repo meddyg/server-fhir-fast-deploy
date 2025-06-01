@@ -34,7 +34,7 @@ Herramienta de línea de comandos para desplegar un servidor HAPI FHIR, cargar l
 ./deploy-hapi /ruta/a/mi/config.yaml 8080 /var/run/docker.sock
 
 # Windows
-./deploy-hapi.exe C:\ruta\a\mi\config.yaml 8080 //./pipe/docker_engine
+.\deploy-hapi.exe C:\ruta\a\mi\config.yaml 8080 //./pipe/docker_engine
 ```
 
 ## Binarios incluidos
