@@ -50,7 +50,7 @@ Crear un archivo `application.yaml` o descargar el archivo de ejemplo desde el r
 
 Para obtener la última versión de la herramienta:
 
-1. Visite la sección de [Releases](https://github.com/meddyg/server-fhir-fast-deploy-public/releases) en nuestro repositorio de GitHub
+1. Visite la sección de [Releases](https://github.com/meddyg/server-fhir-fast-deploy/releases/tag/latest) en nuestro repositorio de GitHub
 2. Descargue la versión más reciente para su sistema operativo
 3. Extraiga los archivos y verifique los permisos de ejecución (en Linux use `chmod +x deploy-hapi`)
 
