@@ -18,12 +18,12 @@ Herramienta de línea de comandos para desplegar un servidor FHIR, cargar la gu�
 ## Instrucciones de uso
 
 ```bash
-./deploy-hapi <ruta-config-yaml> [puerto] [ruta-socket-docker]
+./deploy-server <ruta-config-yaml> [puerto] [ruta-socket-docker]
 ```
 
 ### Argumentos
 
-- `<ruta-config-yaml>`: Ruta absoluta al archivo de configuración YAML para HAPI
+- `<ruta-config-yaml>`: Ruta absoluta al archivo de configuración YAML para el servidor FHIR
 - `[puerto]`: Puerto para exponer el servidor HAPI (predeterminado: 8080)
 - `[ruta-socket-docker]`: Ruta al socket de Docker (predeterminado: /var/run/docker.sock)
 
