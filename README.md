@@ -31,10 +31,10 @@ Herramienta de línea de comandos para desplegar un servidor FHIR, cargar la gu�
 
 ```bash
 # Linux
-./deploy-hapi /ruta/a/mi/application.yaml 8080 /var/run/docker.sock
+./fhir-server /ruta/a/mi/application.yaml 8080 /var/run/docker.sock
 
 # Windows
-.\deploy-hapi.exe C:\ruta\a\mi\application.yaml 8080 //./pipe/docker_engine
+.\fhir-server.exe C:\ruta\a\mi\application.yaml 8080 //./pipe/docker_engine
 ```
 Para conocer en en que socket corre docker, puede ejecitar el siguiente comando:
 ```bash
@@ -44,8 +44,8 @@ docker context ls
 
 ## Binarios incluidos
 
-- `deploy-hapi` - Versión para Linux
-- `deploy-hapi.exe` - Versión para Windows
+- `fhir-server` - Versión para Linux
+- `fhir-server.exe` - Versión para Windows
 
 ## Configuración YAML
 
@@ -57,7 +57,7 @@ Para obtener la última versión de la herramienta:
 
 1. Visite la sección de [Releases](https://github.com/meddyg/server-fhir-fast-deploy/releases/tag/latest) en nuestro repositorio de GitHub
 2. Descargue la versión más reciente para su sistema operativo
-3. Extraiga los archivos y verifique los permisos de ejecución (en Linux use `chmod +x deploy-hapi`)
+3. Extraiga los archivos y verifique los permisos de ejecución (en Linux use `chmod +x fhir-server`)
 
 También puede clonar el repositorio y compilar desde el código fuente siguiendo las instrucciones en la sección de desarrollo.
 
