@@ -49,7 +49,7 @@ docker context ls
 
 ## Configuración YAML
 
-Crear un archivo `application.yaml` o [descargar el archivo de ejemplo desde el repositorio](https://raw.githubusercontent.com/hapifhir/hapi-fhir-jpaserver-starter/refs/heads/master/src/main/resources/application.yaml). Este archivo debe contener la configuración del servidor HAPI y los recursos FHIR a cargar.
+Crear un archivo `application.yaml` o [descargar el archivo de ejemplo desde el repositorio](https://github.com/meddyg/server-fhir-fast-deploy/releases/download/latest/application.yaml). Este archivo debe contener la configuración del servidor HAPI y los recursos FHIR a cargar.
 
 ## Cómo descargar la última versión
 
