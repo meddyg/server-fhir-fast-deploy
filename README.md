@@ -1,6 +1,6 @@
-# HAPI FHIR CLI Deployment Tool v1.0.0
+# SERVER FHIR CLI Deployment Tool v1.0.0
 
-Herramienta de línea de comandos para desplegar un servidor HAPI FHIR, cargar la guía de implementación HL7 FHIR Core de HIE-cr y registrar todos los recursos automáticamente.
+Herramienta de línea de comandos para desplegar un servidor FHIR, cargar la guía de implementación HL7 FHIR CORE de HIE-cr y registrar todos los recursos automáticamente.
 
 ## Requerimientos previos
 
@@ -9,7 +9,7 @@ Herramienta de línea de comandos para desplegar un servidor HAPI FHIR, cargar l
 
 ## Características
 
-- Despliega automáticamente la imagen Docker oficial de HAPI FHIR
+- Despliega automáticamente la imagen Docker de un servidor FHIR
 - Descarga y extrae el paquete FHIR de HIE-cr desde https://www.ministeriodesalud.go.cr/fhir/core/
 - Carga todos los recursos FHIR JSON al servidor
 - Configuración personalizable mediante archivo YAML externo
@@ -49,7 +49,7 @@ docker context ls
 
 ## Configuración YAML
 
-Crear un archivo `application.yaml` o [descargar el archivo de ejemplo desde el repositorio](https://github.com/meddyg/server-fhir-fast-deploy/releases/download/latest/application.yaml). Este archivo debe contener la configuración del servidor HAPI y los recursos FHIR a cargar.
+Crear un archivo `application.yaml` o [descargar el archivo de ejemplo desde el repositorio](https://github.com/meddyg/server-fhir-fast-deploy/releases/download/latest/application.yaml). Este archivo debe contener la configuración del servidor FHIR y los recursos FHIR a cargar.
 
 ## Cómo descargar la última versión
 
@@ -64,4 +64,4 @@ También puede clonar el repositorio y compilar desde el código fuente siguiend
 ## Requisitos
 
 - Docker instalado y en ejecución
-- Acceso a Internet para descargar la imagen HAPI y el paquete FHIR
+- Acceso a Internet para descargar la imagen servidor FHIR y el paquete FHIR
